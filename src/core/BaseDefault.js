@@ -1,6 +1,6 @@
 
 import React from "react";
-import Nav_Bar from "../Navbar/navbar";
+import NavBar from "../Navbar/navbar";
 import SideBar from "../Navbar/sidebar";
 
 export default function BaseDefault({title,styles,children}){
@@ -10,7 +10,7 @@ export default function BaseDefault({title,styles,children}){
             <SideBar/>
         </>
             <div className="main-body">
-                <Nav_Bar/>
+                <NavBar/>
                 <div className={styles}>{title}</div>
                 <div className="children">{children}</div>
             </div>

@@ -235,24 +235,24 @@
 
 // day 25 APP.js
 
-/* eslint-disable react/jsx-pascal-case */
+/* eslint-disable react/jsx-pascal-case */ 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
-import Charts_Page from './Components/Charts';
+import ChartsPage from './Components/Charts';
 import Dashboard from './Components/Dashboard';
-import Button_Page from './Components/dropcomp/Buttons';
-import Cards_Page from './Components/dropcomp/Cards';
-import Error_Page from './Components/Pages/404Page';
-import Blank_page from './Components/Pages/Blank_page';
-import Forgot_page from './Components/Pages/ForgetPassword';
-import Login_Page from './Components/Pages/Login';
-import Register_Page from './Components/Pages/Registor';
-import Tables_Page from './Components/Tables';
-import Animation_Page from './Components/Utilities/Animations';
-import Borders_Page from './Components/Utilities/Borders';
-import Colors_Page from './Components/Utilities/Colors';
-import Other_Page from './Components/Utilities/Other';
+import ButtonPage from './Components/dropcomp/Buttons';
+import CardsPage from './Components/dropcomp/Cards';
+import ErrorPage from './Components/Pages/404Page';
+import Blankpage from './Components/Pages/Blank_page';
+import Forgotpage from './Components/Pages/ForgetPassword';
+import LoginPage from './Components/Pages/Login';
+import RegisterPage from './Components/Pages/Registor';
+import TablesPage from './Components/Tables';
+import AnimationPage from './Components/Utilities/Animations';
+// import Borders_Page from './Components/Utilities/Borders';
+import ColorsPage from './Components/Utilities/Colors';
+import OtherPage from './Components/Utilities/Other';
 
 
 function App() {
@@ -266,59 +266,59 @@ function App() {
           {/* Components */}
 
           <Route path="/cards">
-            <Cards_Page/>
+            <CardsPage/>
           </Route>
 
           <Route path="/buttons">
-            <Button_Page/>
+            <ButtonPage/>
           </Route>
 
         {/* Utilities */}
 
         <Route path="/colors">
-          <Colors_Page/>
+          <ColorsPage/>
         </Route>
 
-        <Route path="/borders">
+        {/* <Route path="/borders">
           <Borders_Page/>
-        </Route>
+        </Route> */}
 
         <Route path="/animations">
-          <Animation_Page/>
+          <AnimationPage/>
         </Route>
 
         <Route path="/others">
-          <Other_Page/>
+          <OtherPage/>
         </Route>
 
         {/* Pages */} 
 
         <Route path="/login">
-          <Login_Page/>
+          <LoginPage/>
         </Route>
 
         <Route path="/register">
-          <Register_Page/>
+          <RegisterPage/>
         </Route>
 
         <Route path="/forgot">
-          <Forgot_page/>
+          <Forgotpage/>
         </Route>
 
         <Route path="/**/**">
-          <Error_Page/>
+          <ErrorPage/>
         </Route>
 
         <Route path="/blank">
-          <Blank_page/>
+          <Blankpage/>
         </Route>
 
         <Route path="/charts">
-          <Charts_Page/>
+          <ChartsPage/>
         </Route>
 
         <Route path="/tables">
-          <Tables_Page/>
+          <TablesPage/>
         </Route>
       </Switch>
 
