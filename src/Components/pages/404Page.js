@@ -8,6 +8,6 @@ export default function Error_Page(){
             title= "404 Page"
         >
             
-        </BaseDefault>
+        </BaseDefault> 
     )
-}
+} 
