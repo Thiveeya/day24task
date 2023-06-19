@@ -1,12 +1,10 @@
-.App{
+/* .App{
   text-align: center;
 }
 .card-container{
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  /* gap: 1rem; */
-  /* margin: 30px; */
   justify-content: center;
   background-color: #d5d7d8;
 }
@@ -26,4 +24,8 @@ button{
   padding: 5px;
   letter-spacing: 2px;
   
+} */
+
+body {
+  font-family: 'Nunito', sans-serif;
 }
