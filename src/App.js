@@ -175,9 +175,9 @@ function App() {
         )}
       </div>
 
-      <footer className="py-5 bg-dark">
+      <footer className="py-5 bg-secondary">
         <div className="container">
-          <p classname="m-0 text-center text-white">
+          <p class="m-0 text-center  text-warning">
             Copyright &copy; Thiveeya <span>2023</span>
           </p>
         </div>
