@@ -27,3 +27,6 @@ export default function Forgot_page(){
        </div>
     )
 }
+
+
+
