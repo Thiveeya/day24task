@@ -239,7 +239,7 @@
 import './App.css';
 import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Dashboard from './components/DashboardPage/Dashboard';
+ import Dashboard from './components/DashboardPage/Dashboard';
 import ButtonPage from './components/ComponentsPage/ButtonsPage/ButtonPage';
 import Cards from './components/ComponentsPage/CardsPage/Cards';
 import Colors from './components/UtilitiesPage/ColorsPage/Colors';
