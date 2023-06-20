@@ -74,3 +74,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 task25 output url:
 Admin-dashboard task:
 https://day25task--gregarious-chimera-308536.netlify.app
+or
+https://6491e9398be5000eb1cbbc18--gregarious-chimera-308536.netlify.app
