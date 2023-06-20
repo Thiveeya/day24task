@@ -8,7 +8,7 @@ export default function Register_Page(){
     return(
         <div  className="log-page">
             <div>
-                <img src ="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSWsDrEqi-X6tZGQKtARvgrsfbkXQGktvQ4ji_wt-fsJ2uGpCzr" />
+                <img src ="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSWsDrEqi-X6tZGQKtARvgrsfbkXQGktvQ4ji_wt-fsJ2uGpCzr" alt=".."/>
                 <div>
                 <Form>
                     <p>Create an Account!</p>
@@ -34,15 +34,15 @@ export default function Register_Page(){
                         <Form.Control type="password" placeholder="Repeat Password" />
                     </Col>
                     </Row>
-                    <Button onClick={()=>history.push("/login")} className="log-btn" variant="primary">Register Account</Button>
+                    <Button onClick={()=>history.push("/login")} className="log-btn" variant="primary" href="/.">Register Account</Button>
                     <hr/>
 
-                    <Button onClick={()=>history.push("/login")} className="log-btn mb-3" variant="danger">Register With Google</Button>
-                    <Button onClick={()=>history.push("/login")} className="log-btn" variant="primary">Register With Facebook</Button>
+                    <Button onClick={()=>history.push("/login")} className="log-btn mb-3" variant="danger" href="/r">Register With Google</Button>
+                    <Button onClick={()=>history.push("/login")} className="log-btn" variant="primary"href="/rf">Register With Facebook</Button>
                     <hr/>
 
-                    <a onClick={()=>history.push("/forgot")} style={{fontSize:"small", cursor:"pointer"}}>Forgot Password?</a><br/>
-                    <a onClick={()=>history.push("/login")} style={{fontSize:"small", cursor:"pointer"}}>Already have an account? Login!</a>
+                    <a onClick={()=>history.push("/forgot")} style={{fontSize:"small", cursor:"pointer"}} href="/f">Forgot Password?</a><br/>
+                    <a onClick={()=>history.push("/login")} style={{fontSize:"small", cursor:"pointer"}} href="/ac">Already have an account? Login!</a>
                 </Form>
                 </div>
             </div>

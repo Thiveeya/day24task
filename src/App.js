@@ -250,7 +250,7 @@ import LoginPage from './Components/Pages/Login';
 import RegisterPage from './Components/Pages/Registor';
 import TablesPage from './Components/Tables';
 import AnimationPage from './Components/Utilities/Animations';
-// import Borders_Page from './Components/Utilities/Borders';
+ import BordersPage from './Components/Utilities/Borders';
 import ColorsPage from './Components/Utilities/Colors';
 import OtherPage from './Components/Utilities/Other';
 
@@ -279,9 +279,9 @@ function App() {
           <ColorsPage/>
         </Route>
 
-        {/* <Route path="/borders">
-          <Borders_Page/>
-        </Route> */}
+        <Route path="/borders">
+          <BordersPage/>
+        </Route>
 
         <Route path="/animations">
           <AnimationPage/>

@@ -1,7 +1,7 @@
-//  eslint-disable jsx-a11y/alt-text 
+ 
 import React from "react";
 import BaseDefault from "../core/BaseDefault";
-import { dash_data, data_color } from "../data/data";
+ import { dash_data, data_color } from "../data/data"
 
 export default function Dashboard(){
     
@@ -54,7 +54,8 @@ export default function Dashboard(){
                 <div className="details2">
                     <div className="ill">
                         <h5 className="card-title">Illustrations</h5>
-                        <img src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_posting_photo.svg"/>
+                        <img src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_posting_photo.svg" alt="..."/> 
+                        
                     </div>
                     <div className="dev-apr"></div>
                 </div>

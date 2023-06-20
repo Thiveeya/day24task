@@ -8,7 +8,7 @@ export default function Login_Page(){
     return(
             <div className="log-page">
                 <div>
-                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHs_OjPDNmk8I-gLZbx2PU9qIxSe5RXJQytuSLoKxVUhpSfmc-"/>
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHs_OjPDNmk8I-gLZbx2PU9qIxSe5RXJQytuSLoKxVUhpSfmc-" alt="..."/>
                 <div>
                     <p>Welcome Back!</p>
                 <Form>
@@ -24,15 +24,15 @@ export default function Login_Page(){
                         <Form.Check type="checkbox" label="Remember me" />
                     </Form.Group>
 
-                    <Button onClick={()=>history.push("/")} variant="primary" type="submit" className="log-btn">Login</Button>
+                    <Button onClick={()=>history.push("/")} variant="primary" type="submit" className="log-btn" href="/l">Login</Button>
                     <hr className="mb-3"/>
 
-                    <Button onClick={()=>history.push("/")} className="log-btn mb-3" variant="danger" type="submit">G Login with Google</Button>
-                    <Button onClick={()=>history.push("/")} className="log-btn" variant="success" type="submit">f Login with Facebook</Button>
+                    <Button onClick={()=>history.push("/")} className="log-btn mb-3" variant="danger" type="submit" href="/gl">G Login with Google</Button>
+                    <Button onClick={()=>history.push("/")} className="log-btn" variant="success" type="submit" href="/fl">f Login with Facebook</Button>
                     <hr className="mb-3"/>
 
-                    <a onClick={()=>history.push("/forgot")} style={{fontSize:"small", cursor:"pointer"}}>Forgot Password?</a><br/>
-                    <a onClick={()=>history.push("/register")} style={{fontSize:"small", cursor:"pointer"}}>create an account!</a>
+                    <a onClick={()=>history.push("/forgot")} style={{fontSize:"small", cursor:"pointer"}} href="/fo">Forgot Password?</a><br/>
+                    <a onClick={()=>history.push("/register")} style={{fontSize:"small", cursor:"pointer"}} href="/ca">create an account!</a>
                 </Form>
                 </div>
             </div>

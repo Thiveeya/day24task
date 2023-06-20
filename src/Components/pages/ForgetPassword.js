@@ -9,7 +9,7 @@ export default function Forgot_page(){
     return(
        <div className="log-page">
             <div className="forgot">
-                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT0O79EGDznXE0gYWkJO5ttrD0oJ3fnJWyW68G-b79oTypfU4Sk"/>
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT0O79EGDznXE0gYWkJO5ttrD0oJ3fnJWyW68G-b79oTypfU4Sk" alt="..."/>
                 <div>
                     <p>Forgot Your Password?</p>
                     <p style={{fontSize:"medium",width:"70%",opacity:"0.6"}}>We get it, stuff happens. Just enter your email address below and we'll send you a link to reset your password!</p>
@@ -19,8 +19,8 @@ export default function Forgot_page(){
                     </Form.Group>
                             <Button onClick={()=>history.push("/login")} className="log-btn" variant="primary">Reset Password</Button>
                             <hr className="mb-3"/>
-                            <a onClick={()=>history.push("/register")} style={{fontSize:"small",cursor:"pointer"}}>Create an Account!</a><br/>
-                            <a onClick={()=>history.push("/login")} style={{fontSize:"small",cursor:"pointer"}}>Already have an account? Login!</a>
+                            <a onClick={()=>history.push("/register")} style={{fontSize:"small",cursor:"pointer"}} href="/fca">Create an Account!</a><br/>
+                            <a onClick={()=>history.push("/login")} style={{fontSize:"small",cursor:"pointer"}} href="/faa">Already have an account? Login!</a>
                     </Form>
                 </div>
             </div>
